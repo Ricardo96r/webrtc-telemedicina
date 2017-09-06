@@ -4,7 +4,7 @@ import { Link } from 'react-router'
 const Home = props =>
   <div className="home">
     <div>
-      <h1 itemProp="headline">Webrtc Video Room</h1>
+      <h1 itemProp="headline">Telemedicina</h1>
       <p>Please enter a room name.</p>
       <form onSubmit={props.joinRoom}>
         <input type="text" name="room" value={props.roomId} onChange={props.handleChange} pattern="^\w+$" maxLength="10" required autoFocus title="Room name should only contain letters or numbers."/>
