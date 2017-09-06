@@ -5,6 +5,7 @@ bundle.js
 logs
 *.log
 npm-debug.log*
+.idea/
 
 # Runtime data
 pids
@@ -37,3 +38,4 @@ node_modules
 
 //js source map
 public/bundle.js.map
+.idea/workspace.xml
